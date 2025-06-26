@@ -68,7 +68,7 @@ const transactionBarItems = computed(() => mainStore.history)
         <CardBoxWidget
           trend="12%"
           trend-type="down"
-          color="text-blue-500"
+          color="text-red-500"
           :icon="mdiCartOutline"
           :number="7770"
           prefix="$"
@@ -77,7 +77,7 @@ const transactionBarItems = computed(() => mainStore.history)
         <CardBoxWidget
           trend="Overflow"
           trend-type="alert"
-          color="text-red-500"
+          color="text-blue-500"
           :icon="mdiChartTimelineVariant"
           :number="256"
           suffix="%"
