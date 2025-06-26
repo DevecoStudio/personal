@@ -7,7 +7,7 @@
       @apply aside-scrollbars-light;
     }
     .aside-menu-item {
-      @apply text-blue-600 hover:text-black;
+      @apply text-blue-600 hover:text-red;
     }
     .aside-menu-item-active {
       @apply text-black;
@@ -19,7 +19,7 @@
       @apply text-blue-600;
     }
     .navbar-item-label-hover {
-      @apply hover:text-black;
+      @apply hover:text-red;
     }
     .navbar-item-label-active {
       @apply text-black;
